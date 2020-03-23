@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Typography, AppBar, Toolbar, Fab, Container, Box, IconButton } from '@material-ui/core';
+import { Typography, AppBar, Toolbar, Container, Box, IconButton } from '@material-ui/core';
 import ArrowBackIosIcon from '@material-ui/icons/ArrowBackIos';
 
 import { Link } from 'react-router-dom';

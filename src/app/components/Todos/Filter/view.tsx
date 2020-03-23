@@ -13,7 +13,6 @@ import {
     Typography,
     IconButton
 } from '@material-ui/core';
-import { Fab } from '@material-ui/core';
 import Close from '@material-ui/icons/Close';
 
 import { IStateProps } from './model';
