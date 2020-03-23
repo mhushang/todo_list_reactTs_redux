@@ -1,6 +1,5 @@
 import { createStore, applyMiddleware } from 'redux';
 import reduxThunk, { ThunkMiddleware } from 'redux-thunk';
-import { composeWithDevTools } from 'redux-devtools-extension';
 
 import { RootActions } from './actions';
 import { rootReducer } from './reducers';
@@ -14,9 +13,7 @@ export interface IRootState {
 
 export const store = createStore(
     rootReducer,
-    composeWithDevTools(
-        applyMiddleware(
-            reduxThunk as ThunkMiddleware<IRootState, RootActions>
-        ),
+    applyMiddleware(
+        reduxThunk as ThunkMiddleware<IRootState, RootActions>
     ),
 );

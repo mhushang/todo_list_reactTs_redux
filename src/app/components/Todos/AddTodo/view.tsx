@@ -15,7 +15,6 @@ import {
 
 import { Fab } from '@material-ui/core';
 import Check from '@material-ui/icons/Check';
-import Close from '@material-ui/icons/Close';
 
 import { IStateProps } from './model';
 
