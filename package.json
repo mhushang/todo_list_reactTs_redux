@@ -17,7 +17,7 @@
     "@types/react-router-config": "^5.0.1",
     "@types/react-router-dom": "^5.1.3",
     "@types/yup": "^0.26.33",
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "formik": "^2.1.4",
     "node-sass": "^4.13.1",
     "react": "^16.13.1",
